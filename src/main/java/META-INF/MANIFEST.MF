@@ -1,0 +1,69 @@
+Manifest-Version: 1.0
+Main-Class: net.scr0pt.crawl.nee.Test
+Class-Path: tomcat-coyote-7.0.47.jar opentracing-api-0.33.0.jar commons-
+ text-1.7.jar tomcat-embed-logging-log4j-7.0.47.jar tomcat-juli-7.0.47.j
+ ar commons-lang-2.6.jar stax-api-1.0.1.jar tomcat-el-api-7.0.47.jar tom
+ cat-embed-core-7.0.47.jar commons-exec-1.3.jar wagon-file-1.0-beta-2.ja
+ r jetty-io-9.4.20.v20190813.jar backport-util-concurrent-3.1.jar jersey
+ -hk2-2.29.1.jar commons-io-2.6.jar commons-logging-1.2.jar opentracing-
+ noop-0.33.0.jar selenium-chrome-driver-4.0.0-alpha-2.jar commons-cli-1.
+ 2.jar maven-repository-metadata-2.0.6.jar maven-settings-2.0.6.jar jsou
+ p-1.12.1.jar plexus-component-annotations-1.5.5.jar jtidy-4aug2000r7-de
+ v.jar maven-core-2.0.6.jar slf4j-api-1.7.5.jar selenium-opera-driver-4.
+ 0.0-alpha-2.jar mongodb-driver-sync-3.11.0.jar jersey-server-2.29.1.jar
+  jakarta.activation-api-1.2.1.jar selenium-firefox-xpi-driver-4.0.0-alp
+ ha-2.jar kotlin-stdlib-jdk7-1.3.50.jar jersey-media-json-binding-2.29.1
+ .jar opentracing-util-0.33.0.jar jersey-media-jaxb-2.29.1.jar neko-html
+ unit-2.36.0.jar tomcat-embed-logging-juli-7.0.47.jar httpclient-4.3.1.j
+ ar osgi-resource-locator-1.0.3.jar commons-email-1.5.jar jakarta.annota
+ tion-api-1.3.5.jar guava-10.0.1.jar jsch-0.1.27.jar okhttp-3.14.0.jar d
+ oxia-sink-api-1.0-alpha-7.jar tomcat7-war-runner-2.2.jar tomcat7-maven-
+ plugin-2.2.jar tomcat-catalina-7.0.47.jar maven-model-2.0.6.jar seleniu
+ m-ie-driver-4.0.0-alpha-2.jar websocket-api-9.4.20.v20190813.jar classw
+ orlds-1.1-alpha-2.jar jersey-container-servlet-core-2.29.1.jar pdfbox-2
+ .0.6.jar plexus-archiver-2.1.1.jar activation-1.1.jar selenium-safari-d
+ river-4.0.0-alpha-2.jar xmlbeans-2.6.0.jar accessors-smart-1.2.jar mave
+ n-plugin-descriptor-2.0.6.jar kotlin-stdlib-jdk8-1.3.50.jar tomcat-anno
+ tations-api-7.0.47.jar tomcat-util-7.0.47.jar plexus-interactivity-api-
+ 1.0-alpha-4.jar xz-1.0.jar htmlunit-2.36.0.jar javax.servlet-api-3.1.0.
+ jar selenium-edge-driver-4.0.0-alpha-2.jar byte-buddy-1.9.12.jar okio-1
+ .17.2.jar maven-artifact-2.0.6.jar hk2-api-2.6.1.jar selenium-firefox-d
+ river-4.0.0-alpha-2.jar plexus-classworlds-2.2.2.jar jetty-http-9.4.20.
+ v20190813.jar maven-reporting-api-2.0.6.jar tomcat-servlet-api-7.0.47.j
+ ar kotlinx-coroutines-core-1.3.2.jar javassist-3.22.0-CR2.jar asm-5.0.4
+ .jar jcl-over-slf4j-1.7.5.jar tomcat-jasper-7.0.47.jar junit-3.8.1.jar 
+ kotlin-stdlib-common-1.3.50.jar jersey-media-multipart-2.28.jar maven-e
+ rror-diagnostics-2.0.6.jar plexus-io-2.0.3.jar selenium-edgehtml-driver
+ -4.0.0-alpha-2.jar commons-lang3-3.9.jar gson-2.8.5.jar ecj-4.2.2.jar s
+ elenium-api-3.141.59.jar maven-monitor-2.0.6.jar wagon-http-shared-1.0-
+ beta-2.jar common-tomcat-maven-plugin-2.2.jar httpmime-4.5.9.jar curves
+ api-1.04.jar aopalliance-repackaged-2.6.1.jar tomcat-catalina-ha-7.0.47
+ .jar bson-3.11.0.jar selenium-java-4.0.0-alpha-2.jar xercesImpl-2.12.0.
+ jar htmlunit-cssparser-1.5.0.jar commons-compress-1.4.1.jar wagon-http-
+ lightweight-1.0-beta-2.jar serializer-2.7.2.jar poi-3.17.jar jetty-xml-
+ 9.4.20.v20190813.jar plexus-container-default-1.0-alpha-9-stable-1.jar 
+ jetty-util-9.4.20.v20190813.jar jsr305-1.3.9.jar selenium-remote-driver
+ -4.0.0-alpha-2.jar wagon-ssh-external-1.0-beta-2.jar jakarta.xml.bind-a
+ pi-2.3.2.jar jakarta.json.bind-api-1.0.2.jar websocket-common-9.4.20.v2
+ 0190813.jar maven-plugin-parameter-documenter-2.0.6.jar htmlunit-core-j
+ s-2.36.0.jar jakarta.activation-1.2.1.jar jetty-client-9.4.20.v20190813
+ .jar wagon-provider-api-1.0-beta-2.jar annotations-13.0.jar kotlin-stdl
+ ib-1.3.50.jar jakarta.validation-api-2.0.2.jar tomcat-jasper-el-7.0.47.
+ jar dec-0.1.2.jar plexus-interpolation-1.13.jar jakarta.json-1.1.5.jar 
+ selenium-support-4.0.0-alpha-2.jar wagon-ssh-1.0-beta-2.jar websocket-c
+ lient-9.4.20.v20190813.jar commons-collections4-4.1.jar maven-plugin-re
+ gistry-2.2.1.jar jakarta.inject-2.6.1.jar plexus-build-api-0.0.4.jar mi
+ mepull-1.9.11.jar wagon-ssh-common-1.0-beta-2.jar maven-archiver-2.4.2.
+ jar json-smart-2.3.jar htmlunit-driver-2.36.0.jar maven-project-2.2.1.j
+ ar xml-apis-1.4.01.jar opentracing-tracerresolver-0.1.7.jar jakarta.jso
+ n-api-1.1.5.jar maven-profile-2.2.1.jar tomcat-tribes-7.0.47.jar javax.
+ mail-1.5.6.jar tomcat-dbcp-7.0.47.jar maven-filtering-1.0.jar tomcat-js
+ p-api-7.0.47.jar commons-codec-1.10.jar tomcat-jdbc-7.0.47.jar fontbox-
+ 2.0.6.jar jakarta.ws.rs-api-2.1.6.jar maven-artifact-manager-2.2.1.jar 
+ poi-ooxml-3.17.jar hk2-utils-2.6.1.jar plexus-utils-3.0.15.jar commons-
+ net-3.6.jar jersey-common-2.29.1.jar zip4j-2.1.2.jar tomcat-api-7.0.47.
+ jar poi-ooxml-schemas-3.17.jar yasson-1.0.3.jar jersey-client-2.29.1.ja
+ r hk2-locator-2.6.1.jar httpcore-4.3.jar xalan-2.7.2.jar maven-plugin-a
+ pi-2.2.1.jar mongodb-driver-core-3.11.0.jar selenium-chromium-driver-4.
+ 0.0-alpha-2.jar
+
