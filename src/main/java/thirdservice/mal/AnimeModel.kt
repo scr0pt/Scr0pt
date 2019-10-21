@@ -1,5 +1,4 @@
 package thirdservice.mal
-
 import com.google.gson.Gson
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
@@ -9,8 +8,8 @@ import org.bson.Document
 
 /**
  * Created by Long
- * Date: 10/13/2019
- * Time: 11:30 PM
+ * Date: 10/14/2019
+ * Time: 12:23 AM
  */
 
 class AnimeModel {
@@ -60,6 +59,12 @@ class AnimeModel {
     @SerializedName("broadcast")
     var broadcast: String? = null
 
+    @Expose
+    var genres: ArrayList<PairIdName>? = null
+    @Expose
+    var studios: ArrayList<PairIdName>? = null
+    @Expose
+    var producers: ArrayList<PairIdName>? = null
 
     @Expose
     var source: String? = null
@@ -95,7 +100,19 @@ class AnimeModel {
     @Expose
     @SerializedName("official_page")
     var officialPage: String? = null
+
+
+    @Expose
+    @SerializedName("recommendations")
+    var recommendations: List<Recommendation>? = null
+    @Expose
+    @SerializedName("related")
+    var related: List<RelatedAnime>? = null
 }
+
+data class Recommendation(@Expose val users: String, @Expose @SerializedName("mal_id") val malId: Long, @Expose  val title: String)
+data class PairIdName(@Expose val name: String, @Expose @SerializedName("mal_id") val malId: Long)
+data class RelatedAnime(@Expose val relationship: String, @Expose val name: String, @Expose @SerializedName("mal_id") val malId: Long, val type: String )//type: Anime or Manga
 
 fun AnimeModel.toDocument(): Document {
     val doc = Document()

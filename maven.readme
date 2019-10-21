@@ -1,0 +1,1 @@
+"D:\Program Files\apache-maven-3.6.2\bin\mvn" install:install-file -DgroupId=net.scr0pt -DartifactId=scr0ptartifact -Dversion=1.0 -Dfile="out/artifacts/Scr0ptArtifact/Scr0ptArtifact.jar" -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
