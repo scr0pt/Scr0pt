@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LongAutoBot" />
+        <module name="Scr0pt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="LongAutoBot" target="1.5" />
+      <module name="Scr0pt" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
