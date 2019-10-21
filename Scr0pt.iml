@@ -203,5 +203,6 @@
     <orderEntry type="library" name="Maven: org.eclipse:yasson:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: jakarta.json.bind:jakarta.json.bind-api:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: jakarta.json:jakarta.json-api:1.1.5" level="project" />
+    <orderEntry type="library" name="classes" level="project" />
   </component>
 </module>

@@ -6,21 +6,17 @@ import com.mongodb.client.model.Updates
 import net.minidev.json.JSONArray
 import net.minidev.json.JSONObject
 import net.minidev.json.JSONValue
-import org.bson.Document
-import org.bson.types.ObjectId
 import net.scr0pt.utils.curl.LongConnection
 import net.scr0pt.utils.curl.NetworkUtils
-import net.scr0pt.utils.webdriver.Browser
+import org.bson.Document
+import org.bson.types.ObjectId
 
 /**
  * Created by Long
  * Date: 10/4/2019
  * Time: 9:31 PM
  */
-fun main() {
-    Browser.firefox
 
-}
 fun main44() {
     val mongoClient = MongoClients.create("mongodb+srv://root:mongo@cluster0-yuuro.mongodb.net/test")
     val serviceAccountDatabase = mongoClient.getDatabase("mal")

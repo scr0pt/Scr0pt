@@ -1,4 +1,5 @@
-package openload.vcookie
+package net.scr0pt.thirdservice.openload
+
 
 /**
  * Created by Long
